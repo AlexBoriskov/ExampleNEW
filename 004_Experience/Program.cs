@@ -11,3 +11,12 @@ double sred = (a+b+c+d)/4;
 
 Console.Write ("Среднее арифетическое = ");
 Console.WriteLine (sred);
+
+double max = a;
+
+if (b>max) {max=b;}
+if (c>max) {max=c;}
+if (d>max) {max=d;}
+
+Console.Write("Максимальное число= ");
+Console.WriteLine(max);
